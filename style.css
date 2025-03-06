@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    font-family: cursive;
+    width: 100%;
+    background-image: url("https://sotni.ru/wp-content/uploads/2023/08/fotooboi-khokkei-1-2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 70px;
+    background-color: rgb(0, 0, 72);
+    z-index: 1;
+}
+
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    margin: auto 0px auto 40px;
+}
+
+
+main {
+    margin-top: 80px;
+}
+
+
+section {
+    scroll-margin-top: 85px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 72);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+footer p,
+footer a {
+    color: #E9F1FA;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.socials {
+    display: inline-block;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.2);
+}
+
+.footer-author {
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    max-width: 400px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(0, 0, 72);
+    color: white;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    /* додаємо плавний перехід */
+}
+
+.card:hover {
+    background-color: rgb(0, 0, 100);
+    /* темніший колір фону */
+    transform: scale(1.05);
+    /* злегка збільшуємо розмір */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* додаємо тінь */
+}
+
+.video {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin: 30px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+iframe:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
